@@ -1,0 +1,33 @@
+.calculator-wrap{
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 40px auto 0px auto; 
+    padding: 20px;
+}
+.display{
+    width: 300px;
+    height: 70px;
+    margin: auto;
+    border: 1px solid black;
+}
+.button-wrap{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.button-wrap button{
+    width: 60px;
+    height: 60px;
+}
+
+.Todo-wrap{
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 40px auto 0px auto; 
+    padding: 20px;
+}
