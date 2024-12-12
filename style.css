@@ -1,3 +1,6 @@
+
+@import "../node_modules/material-design-icons-iconfont/dist/material-design-icons.css";
+
 .calculator-wrap{
     width: 350px;
     height: 450px;
@@ -24,10 +27,26 @@
     height: 60px;
 }
 
-.Todo-wrap{
+.todo-wrap{
     width: 350px;
     height: 450px;
     border: 1px solid black;
     margin: 40px auto 0px auto; 
     padding: 20px;
+}
+
+.input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black; 
+    background-color: aqua;
+}
+
+.todo-click{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: limegreen;
+    color: #fff;
+    border-radius: 5px;
 }
